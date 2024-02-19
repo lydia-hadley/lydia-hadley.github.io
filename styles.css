@@ -40,6 +40,7 @@
   }
   
   .welcome {
+    color: #5F37A5;
     font-family: "gelato-luxe", sans-serif;
     font-weight: 400;
     font-size: 72px;
@@ -47,11 +48,18 @@
   
   #menu {
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .menuitem {
+    color: #3D7A49;
+    font-weight: 500;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .menuitem a:hover{
+    text-decoration: underline;
   }
 
   #hero {
@@ -65,5 +73,5 @@
 
  #hero-image {
     width: 100%;
-    object-fit: scale-down;
+    object-fit: contain;
   }
