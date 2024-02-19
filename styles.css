@@ -48,3 +48,19 @@
     border:#111;
     border-width: .5px;
   }
+  
+  img.hero {
+    width: 90%;
+    object-fit: contain;
+  }
+
+  div.menu {
+    display: table;
+    width: 100%;
+    table-layout: fixed;    /* For cells of equal size */
+  }
+  div.menu span {
+    display: table-cell;
+    text-align: center;
+  }
+  
