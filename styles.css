@@ -44,3 +44,7 @@
     font-size: 48px;
   }
   
+  .hero {
+    border:#111;
+    border-width: .5px;
+  }
