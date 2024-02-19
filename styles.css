@@ -4,7 +4,7 @@
   }
   
   body {
-    font-family: gimlet-text, serif;
+    font-family: "interstate", sans-serif;
     background-color: var(--bg);
     color: var(--text);
   }
@@ -35,32 +35,34 @@
     padding: 10px;
     align-items: center;
     text-align: center;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
   }
   
   .welcome {
-    font-family: "marigny", sans-serif;
+    font-family: "gelato-luxe", sans-serif;
     font-weight: 400;
-    font-style: italic;
-    font-size: 48px;
+    font-size: 100px;
   }
   
-  .hero {
-    border:#111;
-    border-width: .5px;
+  #menu {
+    padding-top: 40px;
   }
   
-  img.hero {
-    width: 90%;
-    object-fit: contain;
+  .menuitem {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  div.menu {
-    display: table;
+  #hero {
+    border:#111;
+    border-width: .5px;
+    box-sizing: border-box;
     width: 100%;
-    table-layout: fixed;    /* For cells of equal size */
+    padding: 50px;
   }
-  div.menu span {
-    display: table-cell;
-    text-align: center;
+
+ #hero-image {
+    width: 100%;
+    object-fit: scale-down;
   }
-  
